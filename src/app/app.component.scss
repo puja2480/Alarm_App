@@ -1,0 +1,22 @@
+.container {
+
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background: wheat;
+    padding: 1em 1em 1em 1em;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    tr {
+        th a {
+            padding: 1em 3em 1em 3em;
+            width: 100%;
+            &:hover {
+                background: darken(wheat, 10%);
+            }
+        }
+    }
+}
